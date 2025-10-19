@@ -1,0 +1,9 @@
+Student Number: 02000226921
+Last Name: Paring
+First Name: Ivan
+M.I.: C
+Program: BSIT
+Age: 20
+Gender: Male
+Birthday: Monday, 4 August 2003
+Contact No.: 09123456789
