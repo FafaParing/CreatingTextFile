@@ -48,6 +48,7 @@
             this.dtpBirthday = new System.Windows.Forms.DateTimePicker();
             this.cmbGender = new System.Windows.Forms.ComboBox();
             this.cmbProgram = new System.Windows.Forms.ComboBox();
+            this.btnRecords = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -245,12 +246,24 @@
             this.cmbProgram.Size = new System.Drawing.Size(303, 33);
             this.cmbProgram.TabIndex = 19;
             // 
+            // btnRecords
+            // 
+            this.btnRecords.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecords.Location = new System.Drawing.Point(611, 361);
+            this.btnRecords.Name = "btnRecords";
+            this.btnRecords.Size = new System.Drawing.Size(177, 58);
+            this.btnRecords.TabIndex = 20;
+            this.btnRecords.Text = "Records";
+            this.btnRecords.UseVisualStyleBackColor = true;
+            this.btnRecords.Click += new System.EventHandler(this.btnRecords_Click);
+            // 
             // FrmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(828, 450);
+            this.Controls.Add(this.btnRecords);
             this.Controls.Add(this.cmbProgram);
             this.Controls.Add(this.cmbGender);
             this.Controls.Add(this.dtpBirthday);
@@ -300,5 +313,6 @@
         private System.Windows.Forms.DateTimePicker dtpBirthday;
         private System.Windows.Forms.ComboBox cmbGender;
         private System.Windows.Forms.ComboBox cmbProgram;
+        private System.Windows.Forms.Button btnRecords;
     }
 }

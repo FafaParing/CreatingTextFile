@@ -47,6 +47,13 @@ namespace CreatingTextFile
             MessageBox.Show("Registration text file created successfully!\nSaved as " + studentNo + ".txt",
                             "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void btnRecords_Click(object sender, EventArgs e)
+        {
+            FrmStudentRecord record = new FrmStudentRecord();
+            record.Show();
+            this.Hide();
+        }
     }
 }
 
